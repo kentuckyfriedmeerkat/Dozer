@@ -17,11 +17,11 @@ extension NSButton {
 
 struct Icons {
     var helperstatusIcon: NSImage {
-        return create(image: Assets.helperStatusItemIcon.name, 10, 10)
+        return create(image: Assets.helperStatusItemIcon.name, 5, 20)
     }
 
     var removeStatusIcon: NSImage {
-        return create(image: Assets.helperStatusItemIcon.name, 5, 5)
+        return create(image: Assets.helperStatusItemIcon.name, 5, 16)
     }
 
     private func create(image name: String, _ width: Int, _ height: Int) -> NSImage {

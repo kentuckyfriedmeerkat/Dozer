@@ -2,11 +2,12 @@
   "images" : [
     {
       "idiom" : "mac",
-      "filename" : "icons8-filled-circle-24.png",
+      "filename" : "dots.png",
       "scale" : "1x"
     },
     {
       "idiom" : "mac",
+      "filename" : "dots@2x.png",
       "scale" : "2x"
     }
   ],

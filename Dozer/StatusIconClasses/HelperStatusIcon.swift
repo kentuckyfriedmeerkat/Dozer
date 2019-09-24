@@ -6,14 +6,14 @@ import Cocoa
 import Defaults
 
 private struct StatusIconLength {
-    static let show: CGFloat = 25
+    static let show: CGFloat = 12
     static let hide: CGFloat = 10_000
 }
 
 class HelperstatusIcon {
     var type: StatusIconType
 
-    let statusIcon: NSStatusItem = NSStatusBar.system.statusItem(withLength: 25)
+    let statusIcon: NSStatusItem = NSStatusBar.system.statusItem(withLength: 12)
 
     init() {
         type = .normal
